@@ -1,0 +1,27 @@
+/*
+ how to create constructor and to to 
+ use the constructor concept
+ */
+
+public class constructor_ex_1 {
+	
+	String name;
+	int rollNo;
+	
+	constructor_ex_1(){
+		this.name="Pranay";
+		this.rollNo=101;
+	}
+	
+	constructor_ex_1(String name,int rollNo){
+		this.name=name;
+		this.rollNo=rollNo;
+	}
+
+	public static void main(String[] args) {
+		constructor_ex_1 con=new constructor_ex_1();
+		System.out.println("The name and rollNo is :"+con.name+" "+con.rollNo);
+
+	}
+
+}
